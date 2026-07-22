@@ -1202,6 +1202,8 @@ def main():
     total = update_db(items, args.db)
     print(f"DB 업데이트 완료 (누적 {total}건) -> {args.db}", file=sys.stderr)
 
+    # 기존 코드 맨 마지막 줄 아래에 추가
+    upload_to_google_sheet(args.db, sheet_name="Gongo")
 
 
 if __name__ == "__main__":
