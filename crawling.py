@@ -88,13 +88,8 @@ import requests
 from bs4 import BeautifulSoup
 
 import json
-import os
 import gspread
 import pandas as pd
-from oauth2client.service_account import ServiceAccountCredentials
-
-# import json
-# import gspread
 from google.oauth2.service_account import Credentials
 
 NIPA_BASE_URL = "https://www.nipa.kr/home/2-2"
@@ -1064,55 +1059,27 @@ def update_db(items: list[Announcement], db_path: str) -> int:
     return len(merged)
 
 
-def upload_to_google_sheet(df: pd.DataFrame, spreadsheet_title: str):
-    """Pandas DataFrame을 Google Sheet에 업데이트하는 함수"""
-    # 인증 범위 설정
-    scope = [
-        "https://spreadsheets.google.com/feeds",
+def upload_to_google_sheet(db_path, sheet_name="Gongo"):
+    """DB 파일을 읽어 Google Sheet에 덮어쓴다.
+    인증 정보는 GitHub Actions 환경변수(GCP_SA_KEY) 또는 로컬 service_account.json
+    파일에서 가져온다."""
+    SCOPES = [
+        "https://www.googleapis.com/auth/spreadsheets",
         "https://www.googleapis.com/auth/drive",
     ]
 
-    # GitHub Actions 환경변수(GCP_SA_KEY) 또는 로컬 json 파일에서 인증 정보 가져오기
     json_creds = os.environ.get("GCP_SA_KEY")
-
     if json_creds:
         creds_dict = json.loads(json_creds)
-        creds = ServiceAccountCredentials.from_json_keyfile_dict(
-            creds_dict, scope
-        )
+        creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     elif os.path.exists("service_account.json"):
-        creds = ServiceAccountCredentials.from_json_keyfile_name(
-            "service_account.json", scope
+        creds = Credentials.from_service_account_file(
+            "service_account.json", scopes=SCOPES
         )
     else:
-        print("구글 서비스 계정 인증 정보를 찾을 수 없습니다")
+        print("구글 서비스 계정 인증 정보를 찾을 수 없어 구글 시트에 업로드하지 못했습니다", file=sys.stderr)
         return
 
-    client = gspread.authorize(creds)
-
-    # 지정한 이름의 구글 시트 열기
-    doc = client.open(spreadsheet_title)
-    sheet = doc.get_worksheet(0)  # 첫 번째 시트 선택
-
-    # 기존 시트 내용 초기화 후 최신 데이터 업로드 (NaN 값은 빈 문자열로 대체)
-    df_clean = df.fillna("")
-    sheet.clear()
-    sheet.update([df_clean.columns.values.tolist()] + df_clean.values.tolist())
-    print(f"Google Sheets ('{spreadsheet_title}') 업로드 완료!")
-
-
-def upload_to_google_sheet(db_path, sheet_name="Gongo"):
-    json_creds = os.environ.get("GCP_SA_KEY")
-    if not json_creds:
-        print("GCP_SA_KEY Secrets가 설정되지 않아 구글 시트에 업로드하지 못했습니다", file=sys.stderr)
-        return
-
-    scopes = [
-        "https://www.googleapis.com/auth/spreadsheets",
-        "https://www.googleapis.com/auth/drive"
-    ]
-    creds_dict = json.loads(json_creds)
-    creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
     client = gspread.authorize(creds)
 
     # 구글 시트 열기
