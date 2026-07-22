@@ -1059,7 +1059,7 @@ def update_db(items: list[Announcement], db_path: str) -> int:
     return len(merged)
 
 
-def upload_to_google_sheet(db_path, sheet_name="Gongo"):
+def upload_to_google_sheet(db_path, sheet_name="gongo"):
     """DB 파일을 읽어 Google Sheet에 덮어쓴다.
     인증 정보는 GitHub Actions 환경변수(GCP_SA_KEY) 또는 로컬 service_account.json
     파일에서 가져온다."""
@@ -1170,7 +1170,7 @@ def main():
     print(f"DB 업데이트 완료 (누적 {total}건) -> {args.db}", file=sys.stderr)
 
     # 기존 코드 맨 마지막 줄 아래에 추가
-    upload_to_google_sheet(args.db, sheet_name="Gongo")
+    upload_to_google_sheet(args.db, sheet_name="gongo")
 
 
 if __name__ == "__main__":
