@@ -93,6 +93,9 @@ import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
+# import json
+# import gspread
+from google.oauth2.service_account import Credentials
 
 NIPA_BASE_URL = "https://www.nipa.kr/home/2-2"
 IRIS_URL = "https://www.iris.go.kr/contents/retrieveBsnsAncmBtinSituListView.do"
@@ -1097,6 +1100,34 @@ def upload_to_google_sheet(df: pd.DataFrame, spreadsheet_title: str):
     sheet.update([df_clean.columns.values.tolist()] + df_clean.values.tolist())
     print(f"Google Sheets ('{spreadsheet_title}') 업로드 완료!")
 
+
+def upload_to_google_sheet(db_path, sheet_name="Gongo"):
+    json_creds = os.environ.get("GCP_SA_KEY")
+    if not json_creds:
+        print("GCP_SA_KEY Secrets가 설정되지 않아 구글 시트에 업로드하지 못했습니다", file=sys.stderr)
+        return
+
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive"
+    ]
+    creds_dict = json.loads(json_creds)
+    creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+    client = gspread.authorize(creds)
+
+    # 구글 시트 열기
+    spreadsheet = client.open(sheet_name)
+    worksheet = spreadsheet.sheet1
+
+    # DB 파일 읽어와서 시트에 덮어쓰기
+    df = _load_dataframe(db_path)
+    if df is not None:
+        df = df.fillna("")
+        data = [df.columns.values.tolist()] + df.values.tolist()
+        worksheet.clear()
+        worksheet.update(data)
+        print(f"구글 시트('{sheet_name}') 업로드 성공!", file=sys.stderr)
+        
 
 def main():
     parser = argparse.ArgumentParser(description="전담기관 사업공고 크롤러")
