@@ -1059,41 +1059,57 @@ def update_db(items: list[Announcement], db_path: str) -> int:
     return len(merged)
 
 
-def upload_to_google_sheet(db_path, sheet_name="gongo"):
+def upload_to_google_sheet(db_path, sheet_name="Gongo"):
     """DB 파일을 읽어 Google Sheet에 덮어쓴다.
     인증 정보는 GitHub Actions 환경변수(GCP_SA_KEY) 또는 로컬 service_account.json
     파일에서 가져온다."""
-    SCOPES = [
-        "https://www.googleapis.com/auth/spreadsheets",
-        "https://www.googleapis.com/auth/drive",
-    ]
+    print("[구글시트] 업로드 시작", file=sys.stderr)
+    try:
+        SCOPES = [
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive",
+        ]
 
-    json_creds = os.environ.get("GCP_SA_KEY")
-    if json_creds:
-        creds_dict = json.loads(json_creds)
-        creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
-    elif os.path.exists("service_account.json"):
-        creds = Credentials.from_service_account_file(
-            "service_account.json", scopes=SCOPES
-        )
-    else:
-        print("구글 서비스 계정 인증 정보를 찾을 수 없어 구글 시트에 업로드하지 못했습니다", file=sys.stderr)
-        return
+        json_creds = os.environ.get("GCP_SA_KEY")
+        if json_creds:
+            print("[구글시트] GCP_SA_KEY 환경변수로 인증 시도", file=sys.stderr)
+            creds_dict = json.loads(json_creds)
+            creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
+        elif os.path.exists("service_account.json"):
+            print("[구글시트] service_account.json 파일로 인증 시도", file=sys.stderr)
+            creds = Credentials.from_service_account_file(
+                "service_account.json", scopes=SCOPES
+            )
+        else:
+            print("[구글시트] 인증 정보(GCP_SA_KEY / service_account.json)를 찾을 수 없습니다", file=sys.stderr)
+            return
 
-    client = gspread.authorize(creds)
+        client = gspread.authorize(creds)
+        print("[구글시트] 인증 성공", file=sys.stderr)
 
-    # 구글 시트 열기
-    spreadsheet = client.open(sheet_name)
-    worksheet = spreadsheet.sheet1
+        # 구글 시트 열기
+        spreadsheet = client.open(sheet_name)
+        worksheet = spreadsheet.sheet1
+        print(f"[구글시트] '{sheet_name}' 시트 열기 성공", file=sys.stderr)
 
-    # DB 파일 읽어와서 시트에 덮어쓰기
-    df = _load_dataframe(db_path)
-    if df is not None:
+        # DB 파일 읽어와서 시트에 덮어쓰기
+        if not os.path.exists(db_path):
+            print(f"[구글시트] DB 파일을 찾을 수 없습니다: {db_path}", file=sys.stderr)
+            return
+
+        df = _load_dataframe(db_path)
+        if df is None:
+            print(f"[구글시트] DB 파일을 읽지 못했습니다(빈 파일이거나 형식 문제): {db_path}", file=sys.stderr)
+            return
+
         df = df.fillna("")
         data = [df.columns.values.tolist()] + df.values.tolist()
         worksheet.clear()
         worksheet.update(data)
-        print(f"구글 시트('{sheet_name}') 업로드 성공!", file=sys.stderr)
+        print(f"[구글시트] 업로드 성공! ({len(df)}행)", file=sys.stderr)
+
+    except Exception as e:
+        print(f"[구글시트] 업로드 실패 - 원인: {type(e).__name__}: {e}", file=sys.stderr)
         
 
 def main():
@@ -1170,7 +1186,7 @@ def main():
     print(f"DB 업데이트 완료 (누적 {total}건) -> {args.db}", file=sys.stderr)
 
     # 기존 코드 맨 마지막 줄 아래에 추가
-    upload_to_google_sheet(args.db, sheet_name="gongo")
+    upload_to_google_sheet(args.db, sheet_name="Gongo")
 
 
 if __name__ == "__main__":
