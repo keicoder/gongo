@@ -138,12 +138,8 @@ DEFAULT_DB_PATH = os.path.join(SCRIPT_DIR, "crawling_db.csv")
 @dataclass
 class Announcement:
     기관명: str = ""  # 가장 앞쪽 열
-    번호: str = ""
-    남은기간: str = ""
-    제목: str = ""
-    사업명: str = ""
     # 아래는 크롤링 시점에 제목/사업명/신청기간을 분석해 자동으로 채우는 파생 컬럼
-    # (enrich_announcement 참고). 사업명 바로 뒤에 배치.
+    # (enrich_announcement 참고). 기관명 바로 뒤에 배치.
     AI관련여부: str = ""
     품질인증관련여부: str = ""
     관련키워드: str = ""
@@ -151,6 +147,10 @@ class Announcement:
     신청시작일: str = ""
     신청종료일: str = ""
     마감Dday: str = ""
+    번호: str = ""
+    남은기간: str = ""
+    제목: str = ""
+    사업명: str = ""
     신청기간: str = ""
     작성자: str = ""
     작성일자: str = ""
@@ -1007,9 +1007,13 @@ def _load_dataframe(path: str):
     if not os.path.exists(path):
         return None
 
-    if path.lower().endswith(".xlsx"):
-        return pd.read_excel(path, dtype=str)
-    return pd.read_csv(path, dtype=str, encoding="utf-8-sig")
+    try:
+        if path.lower().endswith(".xlsx"):
+            return pd.read_excel(path, dtype=str)
+        return pd.read_csv(path, dtype=str, encoding="utf-8-sig")
+    except pd.errors.EmptyDataError:
+        # 파일은 있지만 내용이 비어있는 경우(헤더까지 삭제된 경우) - 기존 데이터 없음으로 취급
+        return None
 
 
 def _save_dataframe(df, path: str) -> None:
@@ -1055,6 +1059,8 @@ def update_db(items: list[Announcement], db_path: str) -> int:
     if "신청종료일" in merged.columns:
         merged["마감Dday"] = merged["신청종료일"].fillna("").apply(_compute_dday)
 
+    merged = merged[field_order]  # 컬럼 순서를 항상 최신 Announcement 정의 순서로 고정
+
     _save_dataframe(merged, db_path)
     return len(merged)
 
@@ -1071,17 +1077,18 @@ def upload_to_google_sheet(db_path, sheet_name="gongo"):
         ]
 
         json_creds = os.environ.get("GCP_SA_KEY")
+        sa_file_path = os.path.join(SCRIPT_DIR, "service_account.json")
         if json_creds:
             print("[구글시트] GCP_SA_KEY 환경변수로 인증 시도", file=sys.stderr)
             creds_dict = json.loads(json_creds)
             creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
-        elif os.path.exists("service_account.json"):
-            print("[구글시트] service_account.json 파일로 인증 시도", file=sys.stderr)
+        elif os.path.exists(sa_file_path):
+            print(f"[구글시트] service_account.json 파일로 인증 시도 ({sa_file_path})", file=sys.stderr)
             creds = Credentials.from_service_account_file(
-                "service_account.json", scopes=SCOPES
+                sa_file_path, scopes=SCOPES
             )
         else:
-            print("[구글시트] 인증 정보(GCP_SA_KEY / service_account.json)를 찾을 수 없습니다", file=sys.stderr)
+            print(f"[구글시트] 인증 정보를 찾을 수 없습니다. GCP_SA_KEY 환경변수도 없고, {sa_file_path} 파일도 없습니다", file=sys.stderr)
             return
 
         client = gspread.authorize(creds)
@@ -1112,6 +1119,47 @@ def upload_to_google_sheet(db_path, sheet_name="gongo"):
         print(f"[구글시트] 업로드 실패 - 원인: {type(e).__name__}: {e}", file=sys.stderr)
         
 
+def _run_git(args_list: list[str]) -> bool:
+    """git 명령을 SCRIPT_DIR 기준으로 실행. 성공하면 True, 실패해도 프로그램은 계속 진행."""
+    import subprocess
+
+    try:
+        result = subprocess.run(
+            ["git", "-C", SCRIPT_DIR] + args_list,
+            capture_output=True, text=True, encoding="utf-8", errors="replace",
+        )
+        output = (result.stdout or "").strip() + (result.stderr or "").strip()
+        if result.returncode == 0:
+            print(f"[git] {' '.join(args_list)} 성공" + (f" - {output}" if output else ""), file=sys.stderr)
+            return True
+        else:
+            print(f"[git] {' '.join(args_list)} 실패 - {output}", file=sys.stderr)
+            return False
+    except FileNotFoundError:
+        print("[git] git이 설치되어 있지 않거나 PATH에 없어 건너뜁니다", file=sys.stderr)
+        return False
+    except Exception as e:
+        print(f"[git] {' '.join(args_list)} 중 오류 - {type(e).__name__}: {e}", file=sys.stderr)
+        return False
+
+
+def git_pull_latest_db() -> None:
+    """크롤링 시작 전, GitHub 저장소의 최신 DB 내용을 받아온다(로컬/온라인 공통)."""
+    print("[git] 최신 DB 받아오는 중 (git pull)...", file=sys.stderr)
+    _run_git(["pull", "--rebase"])
+
+
+def git_push_db(db_path: str) -> None:
+    """크롤링 및 구글시트 업로드 후, 갱신된 DB 파일을 GitHub 저장소에 반영한다(로컬/온라인 공통)."""
+    print("[git] 결과를 저장소에 반영하는 중...", file=sys.stderr)
+    _run_git(["add", db_path])
+    committed = _run_git(["commit", "-m", "크롤링 결과 자동 반영"])
+    if committed:
+        _run_git(["push"])
+    else:
+        print("[git] 커밋할 변경 사항이 없어 push는 건너뜁니다", file=sys.stderr)
+
+
 def main():
     parser = argparse.ArgumentParser(description="전담기관 사업공고 크롤러")
     parser.add_argument(
@@ -1134,6 +1182,8 @@ def main():
         help="[NIPA 전용] 공고를 게시한 기관명 (기본 NIPA). 다른 사이트는 자동으로 채워집니다."
     )
     args = parser.parse_args()
+
+    git_pull_latest_db()
 
     if args.site == "nipa":
         items = crawl_nipa(args.start, args.end, args.org)
@@ -1187,6 +1237,8 @@ def main():
 
     # 기존 코드 맨 마지막 줄 아래에 추가
     upload_to_google_sheet(args.db, sheet_name="gongo")
+
+    git_push_db(args.db)
 
 
 if __name__ == "__main__":
