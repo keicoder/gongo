@@ -29,4 +29,5 @@ jobs:
       - name: 크롤링 실행 (git pull/push 포함)
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          SMES_API_KEY: ${{ secrets.SMES_API_KEY }}
         run: python crawling.py --site all --start 1 --end 3
