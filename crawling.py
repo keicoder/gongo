@@ -1574,7 +1574,8 @@ def main():
         items += crawl_kisa(args.start, args.end)
         items += crawl_smtech(args.start, args.end)
         items += crawl_iris(args.start, args.end)
-        items += crawl_smes()
+        # MSS(중소벤처24) 공고 수집 일시 중지
+        # items += crawl_smes()
 
     if not items:
         print("수집된 공고가 없습니다. 사이트 구조가 바뀌었을 수 있으니 파싱 로직을 확인하세요.", file=sys.stderr)
