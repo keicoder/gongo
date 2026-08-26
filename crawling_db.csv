@@ -1,7 +1,11 @@
 ﻿공고일자,기관명,AI관련여부,품질인증관련여부,관련키워드,공고유형,접수시작일,접수종료일,마감Dday,번호,남은기간,제목,비고,작성자,상세링크
 2026-09-01,SMTECH,N,N,,R&D지원사업,2026-09-01,,,3,접수중,2026년 중소기업 연구인력지원사업(파견) 8월 공고,공공연연구인력파견지원(참여기업접수용),SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=7&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-09-01,SMTECH,N,N,,R&D지원사업,2026-09-01,,,10,접수완료,2026년 중소기업 연구인력지원사업(파견) 7월 공고,공공연연구인력파견지원(참여기업접수용),SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=6&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
+2026-08-26,NIA,Y,N,AI,입찰(용역)공고,2026-08-25,2026-08-30,D-4,29906,신규,[사전규격공개] 국민 AI 인식조사 용역 사업 [첨부파일],미래전략팀,명사은,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29906&parentSeq=29906
 2026-08-26,NIA,Y,N,인공지능,입찰(용역)공고,2026-09-04,2026-09-08,D-13,29905,신규,[조달입찰공고(재공고)] 범정부 인공지능 공통기반 구현(2차) [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29905&parentSeq=29905
+2026-08-26,KIAT,N,Y,신뢰성,입찰(용역)공고,2026-08-26,2026-09-08,D-13,4053,접수중,(입찰공고) 신뢰성기반활용지원사업 홈페이지 기능 개선 용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=78a65fab3bd74152acd285a44d89fac9&MenuId=1e29209309434ec29095728c6f1356c7
+2026-08-26,KIAT,N,N,,입찰(용역)공고,2026-08-26,2026-09-08,D-13,4052,접수중,(입찰공고) 2026년도 국가기술은행(NTB) 기술관계망 시스템 유지보수,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=30bab30e772648aeabe00fb1ce64fecb&MenuId=1e29209309434ec29095728c6f1356c7
+2026-08-26,KIAT,N,N,,입찰(용역)공고,2026-08-26,2026-09-08,D-13,4051,접수중,(입찰재공고) 2026년 산업통상부 인력양성사업 종합성과분석,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=77f7db05a4d14b6a940f5455b8ccccb3&MenuId=1e29209309434ec29095728c6f1356c7
 2026-08-25,NIA,N,N,,입찰(용역)공고,2026.08.25,2026-09-29,D-34,29904,신규,[조달입찰공고] 울산광역시교육청 5단계 스쿨넷서비스 제공 [첨부파일],통신서비스팀,이인아,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29904&parentSeq=29904
 2026-08-25,NIA,N,N,,입찰(용역)공고,2026-09-28,2026-09-29,D-34,29901,신규,[조달입찰공고] 백업센터 2·3전 기반환경 구축 건설공사 실시설계용역 공모 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29901&parentSeq=29901
 2026-08-25,NIA,Y,N,데이터,기타,2026-08-25,2026-08-30,D-4,29900,신규,[사전규격공개] 사회 현안 해결형 복합데이터 세트 구축 방안 연구 사업 [첨부파일],공공지능데이터인프라팀,박종엽,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29900&parentSeq=29900
@@ -59,8 +63,8 @@
 2026-08-12,KISA,N,N,,기타,2026-08-12,,,1934,,2028년도 개인정보 분야 대형 R&D 사업 사전 기획,,,https://www.kisa.or.kr/403/form?postSeq=10833&page=1
 2026-08-12,NIA,Y,N,"AI, 데이터",R&D지원사업,2026.08.12,,,29818,,[공모] 「독자 AI 파운데이션 모델 프로젝트」 공동활용 데이터 지원사업(2차) 공고 [첨부파일],AI데이터사업팀,정유주,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29818&parentSeq=29818
 2026-08-12,NIA,Y,N,AI,입찰(용역)공고,2026.08.12,,,29819,,[입찰공고] AI 기반 스마트 감사행정 지원시스템 구축 위탁감리 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29819&parentSeq=29819
-2026-08-12,NIA,Y,Y,"AI, 데이터, 벤치마크",기타,2026.08.12,,,29823,,[공모] 2026년 AI 모델 벤치마크 데이터셋 구축 사업(2차) [첨부파일],재무관리팀,전원배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29823&parentSeq=29823
 2026-08-12,NIA,Y,N,지능형,입찰(용역)공고,2026.08.12,,,29820,,[조달입찰공고] NPU기반 지능형 영상감시체계 시범 구축(해군) 사업 위탁감리 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29820&parentSeq=29820
+2026-08-12,NIA,Y,Y,"AI, 데이터, 벤치마크",기타,2026.08.12,,,29823,,[공모] 2026년 AI 모델 벤치마크 데이터셋 구축 사업(2차) [첨부파일],재무관리팀,전원배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29823&parentSeq=29823
 2026-08-12,KIAT,N,N,,입찰(용역)공고,2026-08-12,2026-08-26,D-day,4040,접수중,(입찰공고) 산업기술국제협력 신규사업 기획 및 개선,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=132e1e4136d9419fa6a46484737467b5&MenuId=1e29209309434ec29095728c6f1356c7
 2026-08-12,KIAT,N,N,,입찰(용역)공고,2026-08-12,2026-08-26,D-day,4039,접수중,(입찰공고) 2026년 한-불 신산업 협력포럼 행사기획 및 운영 용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=8a49ed64c69e4e4eafb95e14f355ce19&MenuId=1e29209309434ec29095728c6f1356c7
 2026-08-12,KIAT,N,N,,입찰(용역)공고,2026-08-12,2026-08-26,D-day,4038,접수중,(입찰공고) 2026년 산업통상부 인력양성사업 종합성과분석,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=2d58c877f68d484e81e4b15af799f038&MenuId=1e29209309434ec29095728c6f1356c7
@@ -570,7 +574,7 @@
 2026-07-29,KISA,N,N,,기타,2026-07-29,,,1901,,[사전규격공개] 2026년 대내외 이해관계자 만족도 조사,,,https://www.kisa.or.kr/403/form?postSeq=10801&page=3
 2026-07-29,KISA,N,N,,R&D지원사업,2026-07-29,,,1902,,(재공고)ISMS-P 차세대 시스템 고도화 정보화 전략계획（ISP） 수립,,,https://www.kisa.or.kr/403/form?postSeq=10802&page=3
 2026-07-29,NIPA,Y,N,AI,R&D지원사업,2026-07-29,,,352,종료,전 국민 AI 서비스 보편적 활용 지원 (모두의 AI) 사업 수정 공고,전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업,송근호,https://www.nipa.kr/home/2-2/16883
-2026-07-29,NIPA,Y,Y,"인공지능, 보안",R&D지원사업,2026-07-29,,,351,오늘마감,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 수정 공고,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업,박정호,https://www.nipa.kr/home/2-2/16882
+2026-07-29,NIPA,Y,Y,"인공지능, 보안",R&D지원사업,2026-07-29,,,351,종료,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 수정 공고,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업,박정호,https://www.nipa.kr/home/2-2/16882
 2026-07-29,NIPA,N,N,,포상·시상,2026-07-29,,,350,종료,2026년도 소프트웨어 산업발전 유공자 포상계획 연장 공고,중소SW기업경쟁력강화,이호연,https://www.nipa.kr/home/2-2/16874
 2026-07-29,NIPA,N,N,,포상·시상,2026-07-29,,,349,종료,2026년도 소프트웨어 산업발전 유공자 포상계획 공고,중소SW기업경쟁력강화,이호연,https://www.nipa.kr/home/2-2/16846
 2026-07-29,KEIT,N,N,,R&D지원사업,2026-07-29,2026-08-27,D-1,I23137,접수중,2026년도 제3차 산업기술R&D연구기획사업 신규지원 대상과제 공고,IRIS 공고,,https://srome.keit.re.kr/srome/biz/perform/opnnPrpsl/retrieveTaskAnncmView.do?prgmId=XPG201040000&ancmId=I23137&ancmYy=2026
@@ -1909,8 +1913,8 @@
 2026-06-26,MSS,N,N,,R&D지원사업,2026-03-03,2026-08-07,마감,286902138,,[부산] 2026년 세일 페스타 온라인 판매기획전 참여 소상공인 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123633
 2026-06-26,MSS,N,N,,R&D지원사업,2026-06-29,2026-07-26,마감,286902140,,DB손해보험 교통ㆍ환경 챌린지 8기 소셜벤처 창업기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123631
 2026-06-26,중소벤처기업부,N,N,,기타,2026-06-26,2026-08-07,마감,286811888,,"확인서 발급(경기북부) "" 다산지금A3 통합공공임대주택"" 중소기업 근로자 주택우선공급 확인서  신청 안내","확인서 발급(경기북부) "" 다산지금A3 통합공공임대주택"" 중소기업 근로자 주택우선공급 확인서  신청 안내",,https://www.smes.go.kr/sanhakin/websquare/wq_smesDtlBsns.do?NTTSN=2781&BBSCLCODESE=00000018&BSNSCLCODESE=0000003L
-2026-06-26,SMTECH,N,N,,R&D지원사업,2026-06-26,,,11,접수완료,2026년도 제2차 중소벤처기업부 혁신제품 지정기간 연장(2차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02870&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
-2026-06-26,SMTECH,N,N,,R&D지원사업,2026-06-26,,,12,접수완료,2026년도 제3차 중소벤처기업부 혁신제품 지정기간 연장(1차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02869&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
+2026-06-26,SMTECH,N,N,,R&D지원사업,2026-06-26,,,11,접수완료,2026년도 제3차 중소벤처기업부 혁신제품 지정기간 연장(1차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02869&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
+2026-06-26,SMTECH,N,N,,R&D지원사업,2026-06-26,,,12,접수완료,2026년도 제2차 중소벤처기업부 혁신제품 지정기간 연장(2차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02870&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-06-25,중소벤처기업부,N,N,,기타,2026-06-25,2026-06-28,마감,286545213,,(충남)'아산테크노밸리 더원 7차' 중소기업 장기근속자 특별공급,(충남) '아산테크노밸리 더원7차' 중소기업 장기근속자 특별공급,,https://www.smes.go.kr/sanhakin/websquare/wq_smesDtlBsns.do?NTTSN=2780&BBSCLCODESE=00000018&BSNSCLCODESE=0000003L
 2026-06-25,MSS,N,N,,R&D지원사업,2026-06-08,2026-06-29,마감,286606596,,[경기] 양주시 2026년 해외전시회 참가기업 지원사업 모집공고 ,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123582
 2026-06-25,MSS,N,N,,R&D지원사업,2026-06-09,2026-06-30,마감,286606597,,[경기] 연천군 2026년 2차 국내전시회 참가기업 지원사업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000123581
@@ -3063,9 +3067,9 @@
 2026-05-29,MSS,N,N,,R&D지원사업,2026-06-15,2026-06-23,마감,278845234,,[충북] 2026년 뿌리기술산업 경쟁력강화 지원사업 기업지원사업 통합 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122579
 2026-05-29,MSS,N,N,,입찰(용역)공고,2026-05-29,,,278846733,,[부산] 2026년 원부자재 공동구매 지원사업 신청기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122560
 2026-05-29,소상공인시장진흥공단,N,N,,R&D지원사업,2026-05-29,2026-12-31,D-127,278748715,,중동전쟁 위기극복 소상공인 포장재 구입비 긴급 지원 사업 (재)공고,울산광역시 지원사업-소상공인 포장재 구입비 긴급 지원사업,,https://www.sbiz24.kr/#/pbanc/729
+2026-05-29,KIAT,N,N,,입찰(용역)공고,2026-05-29,2026-07-09,마감,4007,접수마감,(입찰공고) 2026년 대한민국 지방시대 엑스포 행사대행 용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=445a86f656b24fceb1e130262bb36817&MenuId=1e29209309434ec29095728c6f1356c7
 2026-05-29,NIPA,N,N,,R&D지원사업,2026-05-29,,,341,종료,2026년도 과학기술정보통신부「고성능컴퓨팅지원」사업 사용자 추가모집 공고,고성능컴퓨팅지원,신동필,https://www.nipa.kr/home/2-2/16797
 2026-05-29,KEIT,N,Y,실증,R&D지원사업,2026-05-29,2026-06-30,마감,I21894,종료,2026년도 제2차 제품안전관리기술개발및실증사업 신규지원 대상과제 공고,IRIS 공고,,https://srome.keit.re.kr/srome/biz/perform/opnnPrpsl/retrieveTaskAnncmView.do?prgmId=XPG201040000&ancmId=I21894&ancmYy=2026
-2026-05-29,KIAT,N,N,,입찰(용역)공고,2026-05-29,2026-07-09,마감,4007,접수마감,(입찰공고) 2026년 대한민국 지방시대 엑스포 행사대행 용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=445a86f656b24fceb1e130262bb36817&MenuId=1e29209309434ec29095728c6f1356c7
 2026-05-28,MSS,N,N,,R&D지원사업,2026-05-27,2026-05-29,마감,278556416,,[경북] 2026년 유망 중소ㆍ벤처기업 상장 및 투자활성화 지원사업 기업 모집 연장 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122544
 2026-05-28,MSS,N,N,,R&D지원사업,2026-05-26,2026-06-05,마감,278556429,,[경남] 김해시ㆍ거제시 2026년 7차 청년여성 일경험 지원사업 참여기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122529
 2026-05-28,MSS,N,N,,R&D지원사업,2026-05-27,2026-06-02,마감,278556408,,[부산] 2026년 콘텐츠기업 해외 공동관(파빌리온) 참가기업 연장모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122552
@@ -3131,8 +3135,8 @@
 2026-05-28,중소벤처기업부,N,N,,R&D지원사업,2026-06-15,2026-07-02,마감,278341578,,2026년도 디지털기반 중소사업장 산재예방 기술개발 지원사업 시행계획 공고,디지털기반중소제조산재예방기술개발(R&D),,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021935
 2026-05-28,KIAT,N,N,,입찰(용역)공고,2026-05-28,2026-06-11,마감,4005,접수마감,(입찰공고) 탄소중립 이행 지역 지원프로그램 기획,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=e05448fd3af34c03b91f3bc4514fd272&MenuId=1e29209309434ec29095728c6f1356c7
 2026-05-28,KIAT,N,N,,입찰(용역)공고,2026-05-28,2026-06-11,마감,4004,접수마감,(입찰재공고) 2026년 기술나눔 설명회 및 체결식 운영 지원,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=0893a8eab9404b65bfebb22c1016d3ed&MenuId=1e29209309434ec29095728c6f1356c7
-2026-05-28,NIPA,N,N,,R&D지원사업,2026-05-28,,,340,종료,｢2026년도 AX 원스톱 바우처｣ 지원사업 수요기업 추가 모집 공고,AX 원스톱 바우처 지원,한복미,https://www.nipa.kr/home/2-2/16795
 2026-05-28,KIAT,N,N,,입찰(용역)공고,2026-05-28,2026-06-11,마감,4006,접수마감,(입찰공고) 2026년도 글로벌 산업기술정책 동향조사분석,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=301074497fa745419eab663710c5a017&MenuId=1e29209309434ec29095728c6f1356c7
+2026-05-28,NIPA,N,N,,R&D지원사업,2026-05-28,,,340,종료,｢2026년도 AX 원스톱 바우처｣ 지원사업 수요기업 추가 모집 공고,AX 원스톱 바우처 지원,한복미,https://www.nipa.kr/home/2-2/16795
 2026-05-27,MSS,N,N,,R&D지원사업,2026-05-27,2026-05-29,마감,278267890,,[전남광주] 2026년 글로벌강소기업 1000+ 프로젝트 자율 프로그램 모집 연장 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122491
 2026-05-27,MSS,N,N,,설명회·행사,2026-05-26,2026-05-29,마감,278267915,,[전남광주] 2026년 해외 전시박람회 단체참가 업체 추가모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122465
 2026-05-27,MSS,N,N,,R&D지원사업,2026-05-26,2026-05-31,마감,278267904,,[충북] 2026년 베트남(하노이ㆍ호치민) 현지수출상담회 참가기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000122477
