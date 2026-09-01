@@ -1,4 +1,5 @@
 ﻿공고일자,기관명,AI관련여부,품질인증관련여부,관련키워드,공고유형,접수시작일,접수종료일,마감Dday,번호,남은기간,제목,비고,작성자,상세링크
+2026-09-01,NIA,N,N,,입찰(용역)공고,2026.09.01,,,29943,신규,[조달입찰공고] 디지털 스트레스 진단도구 개발 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29943&parentSeq=29943
 2026-09-01,NIA,N,Y,품질,입찰(용역)공고,2026.09.01,,,29940,신규,[조달입찰공고] 2026년 국가지식정보 품질개선 및 기술지원 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29940&parentSeq=29940
 2026-09-01,NIA,N,N,,기타,2026.09.01,,,29939,신규,[검토결과 공개] 대전광역시교육청 5단계 스쿨넷서비스 제공 사업 사전규격공개 의견 [첨부파일],통신서비스팀,이인아,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29939&parentSeq=29939
 2026-09-01,NIA,N,N,,입찰(용역)공고,2026.09.01,2026-10-06,D-35,29938,신규,[조달입찰공고] 충청남도교육청 5단계 스쿨넷서비스 제공 [첨부파일],통신서비스팀,이인아,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29938&parentSeq=29938
@@ -62,9 +63,9 @@
 2026-08-18,NIA,Y,N,AI,입찰(용역)공고,2026.08.18,,,29860,,[조달입찰공고] 강원 AI 소상공인 안심경영 지원 서비스 위탁감리 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29860&parentSeq=29860
 2026-08-18,NIA,Y,N,AI,입찰(용역)공고,2026.08.18,,,29859,,[조달입찰공고] 공공 AI CCTV 전환(경상남도) 사업 위탁감리 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29859&parentSeq=29859
 2026-08-18,KISA,N,N,,기타,2026-08-18,,,1937,,블록체인 기술 서비스 해외진출 전략 수립,,,https://www.kisa.or.kr/403/form?postSeq=10836&page=1
+2026-08-18,NIA,Y,N,데이터,기타,2026-08-18,2026-08-23,마감,29862,,[사전규격공개] 특수교량.의결서.산림유량 데이터 개방과제 위탁감리 [첨부파일],공공지능데이터개방팀,오현목,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29862&parentSeq=29862
 2026-08-18,NIPA,N,N,,R&D지원사업,2026-08-18,,,353,D-16,2026년 KoVAC XR 쇼룸 입주기업 2차 모집,KoVAC XR쇼룸 상설전시관 운영,이종석,https://www.nipa.kr/home/2-2/16900
 2026-08-18,NIA,N,N,,기타,2026.08.18,,,29863,,[검토결과 공개] 충청남도교육청 5단계 스쿨넷서비스 제공 사업 사전규격공개 의견 [첨부파일],통신서비스팀,이인아,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29863&parentSeq=29863
-2026-08-18,NIA,Y,N,데이터,기타,2026-08-18,2026-08-23,마감,29862,,[사전규격공개] 특수교량.의결서.산림유량 데이터 개방과제 위탁감리 [첨부파일],공공지능데이터개방팀,오현목,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29862&parentSeq=29862
 2026-08-18,KISA,N,Y,보안,기타,2026-08-18,,,1938,,[사전규격공개] 블록체인 스마트계약 보안성 강화 참조모델 마련 연구,,,https://www.kisa.or.kr/403/form?postSeq=10837&page=1
 2026-08-18,KISA,N,N,,기타,2026-08-18,,,1937,,블록체인 기술 서비스 해외진출 전략 수립,,,https://www.kisa.or.kr/403/form?postSeq=10836&page=2
 2026-08-14,NIA,N,N,,입찰(용역)공고,2026.08.14,,,29837,,[입찰공고] 2026년 스마트빌리지 페스타 행사 용역 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29837&parentSeq=29837
@@ -83,7 +84,7 @@
 2026-08-13,KEIT,Y,N,로봇,R&D지원사업,2026-08-21,2026-09-11,D-10,I23577,접수중,2026년도 제2차 로봇산업기술개발사업 신규지원 대상과제 공고,IRIS 공고,,https://srome.keit.re.kr/srome/biz/perform/opnnPrpsl/retrieveTaskAnncmView.do?prgmId=XPG201040000&ancmId=I23577&ancmYy=2026
 2026-08-13,KISA,Y,N,지능형,기타,2026-08-13,,,1936,,지능형 CCTV 기반 수자원 건설 현장 안전 기준 수립,,,https://www.kisa.or.kr/403/form?postSeq=10835&page=2
 2026-08-13,정보통신기획평가원,Y,N,AI,R&D지원사업,2026-08-31,2026-09-11,D-10,023617,접수중,2026년도 AI 기반 주파수 간섭분석 및 전파예측기술 개발사업 신규지원 대상과제 공고,과학기술정보통신부 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023617
-2026-08-13,한국산업기술기획평가원,Y,N,로봇,R&D지원사업,2026-08-13,,,023577,접수중,2026년도 제2차 로봇산업기술개발사업 신규지원 대상과제 공고,산업통상부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023577
+2026-08-13,한국산업기술기획평가원,Y,N,로봇,R&D지원사업,2026-08-21,2026-09-11,D-10,023577,접수중,2026년도 제2차 로봇산업기술개발사업 신규지원 대상과제 공고,산업통상부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023577
 2026-08-12,KISA,N,N,,R&D지원사업,2026-08-12,,,1932,,(재공고) 제8차 인터넷주소자원 기본계획 수립 컨설팅,,,https://www.kisa.or.kr/403/form?postSeq=10832&page=1
 2026-08-12,KISA,N,N,,기타,2026-08-12,,,1934,,2028년도 개인정보 분야 대형 R&D 사업 사전 기획,,,https://www.kisa.or.kr/403/form?postSeq=10833&page=1
 2026-08-12,NIA,Y,N,"AI, 데이터",R&D지원사업,2026.08.12,,,29818,,[공모] 「독자 AI 파운데이션 모델 프로젝트」 공동활용 데이터 지원사업(2차) 공고 [첨부파일],AI데이터사업팀,정유주,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29818&parentSeq=29818
@@ -110,7 +111,7 @@
 2026-08-11,KISA,N,N,,R&D지원사업,2026-08-11,,,1929,,2026년 블록체인 신뢰인프라(K-BTF) 활용·확산사업 모집 재공고,,,https://www.kisa.or.kr/403/form?postSeq=10828&page=2
 2026-08-11,KISA,N,N,,R&D지원사업,2026-08-11,,,1928,,(재공고 자격확대) 2026 글로벌 정보보호 시장 심층 조사,,,https://www.kisa.or.kr/403/form?postSeq=10827&page=2
 2026-08-11,KISA,N,N,,기타,2026-08-11,,,1927,,2026년 개인정보 R&D 사업 회계정산,,,https://www.kisa.or.kr/403/form?postSeq=10826&page=3
-2026-08-11,한국연구재단,N,N,,기타,2026-08-11,,,023557,접수중,2026년도 NRF 인터내셔널 모빌리티 신규과제 공모,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023557
+2026-08-11,한국연구재단,N,N,,기타,2026-08-19,2026-09-16,D-15,023557,접수중,2026년도 NRF 인터내셔널 모빌리티 신규과제 공모,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023557
 2026-08-10,KISA,N,N,,기타,2026-08-10,,,1925,,동형암호 적용 가능성 분석 및 시나리오 도출,,,https://www.kisa.or.kr/403/form?postSeq=10825&page=1
 2026-08-10,KISA,N,N,,기타,2026-08-10,2026-08-14,마감,1924,,[사전규격공개] 블록체인 기술 서비스 해외진출 전략 수립,,,https://www.kisa.or.kr/403/form?postSeq=10824&page=1
 2026-08-10,NIA,N,N,,입찰(용역)공고,2026.08.10,,,29814,,[입찰공고] 2026년 디지털윤리대전 운영 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29814&parentSeq=29814
