@@ -1,4 +1,6 @@
 ﻿공고일자,기관명,AI관련여부,품질인증관련여부,관련키워드,공고유형,접수시작일,접수종료일,마감Dday,번호,남은기간,제목,비고,작성자,상세링크
+2026-09-07,NIA,Y,Y,"AI, 데이터, 평가",기타,2026-09-07,2026-09-11,D-4,29966,신규,[사전규격공개] 국토연구원 민원분석·예측 기술 구현을 위한 화성시 문제해결형 도시데이터플랫폼 구축 개인정보 영향평가 [첨부파일],AI정부사업팀,강태양,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29966&parentSeq=29966
+2026-09-07,NIA,Y,Y,"AI, 데이터, 빅데이터, 평가",R&D지원사업,2026.09.07,,,29965,신규,[사전규격공개] AI·빅데이터 분석기반 보훈심사 지원시스템 구축 개인정보 영향평가 [첨부파일],AI정부사업팀,하예진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29965&parentSeq=29965
 2026-09-07,NIA,Y,N,"AI, 인공지능",기타,2026-09-07,2026-09-11,D-4,29964,신규,[사전규격공개] 공공부문 인공지능 신뢰기반 제도 교육 및 홍보 콘텐츠 제작 [첨부파일],AI정부기획팀,이용건,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29964&parentSeq=29964
 2026-09-07,NIA,Y,N,AI,입찰(용역)공고,2026.09.07,,,29963,신규,[조달입찰공고] 우즈베키스탄 디지털 취약계층을 고려한 AI 기반 디지털정부 포털 고도화 전략 수립 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29963&parentSeq=29963
 2026-09-07,NIA,N,Y,품질,입찰(용역)공고,2026.09.07,,,29962,신규,[조달입찰공고] 2026년 국가지식정보 품질개선 및 기술지원 위탁감리 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29962&parentSeq=29962
@@ -39,7 +41,7 @@
 2026-08-31,NIA,N,N,,입찰(용역)공고,2026.08.31,,,29925,신규,"[입찰공고] 2026년 2개 시도교육청(대전, 경남) 학교 무선통신장비 도입 및 설치 위탁감리 [첨부파일]",재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29925&parentSeq=29925
 2026-08-31,KISA,N,Y,"보안, 사이버보안",기타,2026-08-31,,,1946,,[사전규격공개] 지역 특화산업 AX 전환 및 사이버보안 실태조사,,,https://www.kisa.or.kr/403/form?postSeq=10845&page=1
 2026-08-31,한국연구재단,N,N,,기타,2026-08-31,2026-10-07,D-30,023640,접수중,양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023640
-2026-08-28,NIA,N,N,,R&D지원사업,2026-08-28,2026-08-31,마감,29921,신규,[사전규격공개] 재난현장 영상정보 공유시스템 운영 안정화 및 이관 지원 [첨부파일],네트워크전략팀,송힘찬,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29921&parentSeq=29921
+2026-08-28,NIA,N,N,,R&D지원사업,2026-08-28,2026-08-31,마감,29921,,[사전규격공개] 재난현장 영상정보 공유시스템 운영 안정화 및 이관 지원 [첨부파일],네트워크전략팀,송힘찬,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29921&parentSeq=29921
 2026-08-28,NIA,N,Y,품질,입찰(용역)공고,2026.08.28,,,29917,,[조달입찰공고] 2026년 국가지식정보 품질개선 및 기술지원 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29917&parentSeq=29917
 2026-08-28,KISA,N,N,,기타,2026-08-28,,,1945,,전자문서 기반 디지털 전환 확산을 위한 국가 간 상호 인정 체계 수립,,,https://www.kisa.or.kr/403/form?postSeq=10844&page=1
 2026-08-27,NIA,Y,N,데이터,입찰(용역)공고,2026.08.27,,,29911,,[조달입찰공고]한의약 및 이륜자동차 데이터 개방사업 통합 위탁감리 [첨부파일],공공지능데이터개방팀,정종열,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29911&parentSeq=29911
@@ -168,9 +170,9 @@
 2026-08-07,KISA,Y,N,지능형,기타,2026-08-07,,,1924,,사전규격공개] 지능형 CCTV 기반 수자원 건설 현장 안전 기준 수립,,,https://www.kisa.or.kr/403/form?postSeq=10823&page=2
 2026-08-07,한국연구재단,N,Y,실증,기타,2026-08-07,,,023418,접수중,2026년도 4차 국민생활안전 긴급대응연구(2단계) 기술개발 및 실증 신규과제 공모,과학기술정보통신부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023418
 2026-08-07,한국연구재단,N,N,,기타,2026-08-07,,,023437,접수중,2026년도 가속기핵심기술개발사업 신규과제 공모,과학기술정보통신부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023437
+2026-08-07,우주항공청,N,N,,R&D지원사업,2026-08-07,,,023457,접수중,2026년도 신규프로젝트 탐색연구 재공고(다중 궤도 위성 기반 우주환경 상시 감시체계 구축 기획연구),우주항공청 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023457
 2026-08-07,KISA,Y,N,지능형,기타,2026-08-07,,,1924,,사전규격공개] 지능형 CCTV 기반 수자원 건설 현장 안전 기준 수립,,,https://www.kisa.or.kr/403/form?postSeq=10823&page=3
 2026-08-07,KISA,N,N,,R&D지원사업,2026-08-07,,,1923,,2026년 블록체인 지원사업 성과조사,,,https://www.kisa.or.kr/403/form?postSeq=10822&page=3
-2026-08-07,우주항공청,N,N,,R&D지원사업,2026-08-07,,,023457,접수중,2026년도 신규프로젝트 탐색연구 재공고(다중 궤도 위성 기반 우주환경 상시 감시체계 구축 기획연구),우주항공청 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023457
 2026-08-06,MSS,N,N,,R&D지원사업,2026-08-04,2026-08-21,마감,299083215,,2026년 빅웨이브 글로벌(일본5차)참가기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125195
 2026-08-06,MSS,N,N,,R&D지원사업,2026-08-05,2026-09-04,마감,299083216,,[충북] 2026년 2차 미취업청년 취업연계 일경험 지원사업 참여기업 모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125194
 2026-08-06,MSS,N,N,,R&D지원사업,2026-08-06,,,299083220,,[경북] 영천시 2026년 해외(태국ㆍ말레이시아) 무역사절단 참가기업 추가모집 공고,,,https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125189
@@ -637,7 +639,6 @@
 2026-07-29,KISA,N,N,,기타,2026-07-29,,,1901,,[사전규격공개] 2026년 대내외 이해관계자 만족도 조사,,,https://www.kisa.or.kr/403/form?postSeq=10801&page=3
 2026-07-29,KISA,N,N,,R&D지원사업,2026-07-29,,,1902,,(재공고)ISMS-P 차세대 시스템 고도화 정보화 전략계획（ISP） 수립,,,https://www.kisa.or.kr/403/form?postSeq=10802&page=3
 2026-07-29,한국산업기술기획평가원,N,N,,R&D지원사업,2026-07-29,,,023137,접수중,2026년도 제3차 산업기술R&D연구기획사업 신규지원 대상과제 공고,산업통상부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023137
-2026-07-29,한국과학기술기획평가원,N,N,,R&D지원사업,2026-07-29,,,017852,접수중,(TEST) KISTEP  통합공고 테스트 입니다.,"과학기술정보통신부 / 자유공모,정책지정공모",,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017852
 2026-07-29,NIPA,Y,N,AI,R&D지원사업,2026-07-29,,,345,종료,전 국민 AI 서비스 보편적 활용 지원 (모두의 AI) 사업 수정 공고,전 국민 AI 서비스 보편적 활용 지원(모두의 AI) 사업,송근호,https://www.nipa.kr/home/2-2/16883
 2026-07-29,NIPA,Y,Y,"인공지능, 보안",R&D지원사업,2026-07-29,,,344,종료,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업 수정 공고,특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업,박정호,https://www.nipa.kr/home/2-2/16882
 2026-07-29,NIPA,N,N,,포상·시상,2026-07-29,,,343,종료,2026년도 소프트웨어 산업발전 유공자 포상계획 연장 공고,중소SW기업경쟁력강화,이호연,https://www.nipa.kr/home/2-2/16874
@@ -717,6 +718,7 @@
 2026-07-28,KISA,N,N,,기타,2026-07-28,,,1899,,[사전규격공개] DID 직접해석 기능 확장연구,,,https://www.kisa.or.kr/403/form?postSeq=10799&page=3
 2026-07-28,NIPA,N,N,,R&D지원사업,2026-07-28,,,341,종료,2026 가상융합산업허브 입주기업 모집(2차),가상융합산업허브 기업성장센터,이수진,https://www.nipa.kr/home/2-2/16872
 2026-07-28,KIAT,Y,N,"AI, 데이터",입찰(용역)공고,2026-07-28,2026-08-11,마감,4031,접수마감,(입찰재공고) AI 데이터센터 소부장 사업화 지원 기획 연구,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=a1f5df3bd5904aa2987cd45272cf6301&MenuId=1e29209309434ec29095728c6f1356c7
+2026-07-28,한국과학기술기획평가원,N,N,,R&D지원사업,2026-07-28,,,017852,접수중,(TEST) KISTEP  통합공고 테스트 입니다.,"과학기술정보통신부 / 분야공모,자유공모",,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=017852
 2026-07-27,KISA,N,N,,입찰(용역)공고,2026-07-27,,,1893,,[사전규격공개] 양자내성암호 시범전환 회계 감사 용역,,,https://www.kisa.or.kr/403/form?postSeq=10793&page=1
 2026-07-27,KISA,N,N,,입찰(용역)공고,2026-07-27,,,1894,,한·중 개인정보보호 협력포럼 및 세미나 개최 운영 용역,,,https://www.kisa.or.kr/403/form?postSeq=10794&page=1
 2026-07-27,KISA,N,N,,기타,2026-07-27,,,1896,,[사전규격공개] 암호프로토콜 기반 암호 적용 현황 식별 분석체계 마련,,,https://www.kisa.or.kr/403/form?postSeq=10796&page=1
