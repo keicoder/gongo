@@ -21,8 +21,8 @@
 2026-09-14,NIA,Y,N,AI,입찰(용역)공고,2026.09.14,,,29987,신규,[조달입찰공고] NPU 기반 범정부 AI 서비스 구현 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29987&parentSeq=29987
 2026-09-14,NIA,Y,Y,"AI, 실증",입찰(용역)공고,2026.09.14,,,29986,신규,[조달입찰공고] AI기반 집중호우·태풍 대응서비스 구축 및 실증 위탁감리(통합) [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29986&parentSeq=29986
 2026-09-14,NIA,N,N,,입찰(용역)공고,2026.09.14,,,29985,신규,[조달입찰공고] 조지아 디지털정부 포털(my.gov.ge) 고도화 전략 및 로드맵 수립 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29985&parentSeq=29985
-2026-09-14,한국과학기술기획평가원,N,N,,기타,2026-09-14,,,024200,접수중,TEST,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024200
-2026-09-14,연구개발특구진흥재단,N,N,,R&D지원사업,2026-09-14,,,024199,접수중,2026년 4극3특 대경권 과학기술혁신지원사업 연구단 모집 공고,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024199
+2026-09-14,한국과학기술기획평가원,N,N,,기타,2026-09-14,2026-09-20,D-2,024200,접수중,TEST,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024200
+2026-09-14,연구개발특구진흥재단,N,N,,R&D지원사업,2026-09-14,2026-10-12,D-24,024199,접수중,2026년 4극3특 대경권 과학기술혁신지원사업 연구단 모집 공고,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024199
 2026-09-11,KISA,Y,Y,"AI, 검증, 보안, 취약점",입찰(용역)공고,2026-09-11,2026-09-16,마감,1953,,[사전규격공개] 보안 취약점 검증 및 패치 후보군 생성 기술 개발 과제 AI 서버 구매,,,https://www.kisa.or.kr/403/form?postSeq=10852&page=1
 2026-09-11,KISA,N,Y,"검증, 보안, 취약점",입찰(용역)공고,2026-09-11,,,1952,,[사전규격공개] 보안 취약점 검증 및 패치 후보군 생성 기술 개발 과제 GPU 구매,,,https://www.kisa.or.kr/403/form?postSeq=10851&page=1
 2026-09-11,NIPA,N,N,,R&D지원사업,2026-09-11,,,352,D-12,2026 인도 BTS(Bengaluru Tech Summit) 전시회 참가 기업 모집,한인도SW상생협력센터 운영,홍지명,https://www.nipa.kr/home/2-2/16931
@@ -49,8 +49,8 @@
 2026-09-09,KIAT,N,N,,입찰(용역)공고,2026-09-09,2026-09-22,D-4,4069,접수중,(입찰공고) 2026년 첨단기술 및 제품의 범위 고시 개정 지원 수요조사,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=f3d6b57afdc944dabacc409035b5d09b&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-08,한국연구재단,N,N,,기타,2026-09-08,,,024117,접수중,2026년도 가속기핵심기술개발사업 신규과제 재공모,과학기술정보통신부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024117
 2026-09-08,NIA,Y,N,AI,입찰(용역)공고,2026.09.08,,,29973,신규,[조달입찰공고] AI기반 실종자 예측 시스템 구축 위탁감리 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29973&parentSeq=29973
-2026-09-08,NIA,Y,N,데이터,입찰(용역)공고,2026.09.08,,,29968,신규,[조달입찰공고] 국토연구원 민원분석 예측 기술 구현을 위한 화성시 문제해결형 도시데이터플랫폼 구축 위탁감리 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29968&parentSeq=29968
-2026-09-08,NIA,Y,N,"AI, 지능형",입찰(용역)공고,2026-09-18,2026-09-22,D-4,29967,신규,[조달입찰공고] 지능형 AI 규제정보 분석 시스템 구축 위탁감리 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29967&parentSeq=29967
+2026-09-08,NIA,Y,N,데이터,입찰(용역)공고,2026.09.08,,,29968,,[조달입찰공고] 국토연구원 민원분석 예측 기술 구현을 위한 화성시 문제해결형 도시데이터플랫폼 구축 위탁감리 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29968&parentSeq=29968
+2026-09-08,NIA,Y,N,"AI, 지능형",입찰(용역)공고,2026-09-18,2026-09-22,D-4,29967,,[조달입찰공고] 지능형 AI 규제정보 분석 시스템 구축 위탁감리 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=29967&parentSeq=29967
 2026-09-08,KIAT,N,N,,입찰(용역)공고,2026-09-08,2026-09-22,D-4,4068,접수중,(입찰재공고) 2026년도 국가기술은행(NTB) 기술관계망 시스템 유지보수,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=69fa1e2a1c4b4f03ba0ad94c60a03c18&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-08,KIAT,N,N,,입찰(용역)공고,2026-09-08,2026-09-22,D-4,4067,접수중,(입찰재공고) 2026년 국가기술은행(NTB) 기술이전실적 조사,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=4af112f9aa65488f801a637d0042d552&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-07,한국에너지기술평가원,N,N,,R&D지원사업,2026-09-07,,,023977,접수중,2026년도 산업기술R&D연구기획사업 신규지원대상 연구개발과제 공고,기후에너지환경부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023977
