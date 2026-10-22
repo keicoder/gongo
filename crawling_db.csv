@@ -1,5 +1,7 @@
 ﻿공고일자,기관명,AI관련여부,품질인증관련여부,관련키워드,공고유형,접수시작일,접수종료일,마감Dday,번호,남은기간,제목,비고,작성자,상세링크
-2026-10-21,NIA,N,N,,입찰(용역)공고,2026.10.21,,,30085,신규,[입찰공고] [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30085&parentSeq=30085
+2026-10-22,NIA,Y,N,AI,입찰(용역)공고,2026-10-22,2026-10-26,D-4,30087,신규,[사전규격공개] 국민체감 성과 확산을 위한 공공 AI 서비스 성과관리 용역 [첨부파일],AI정부사업팀,강태양,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30087&parentSeq=30087
+2026-10-22,NIA,N,N,,입찰(용역)공고,2026.10.22,,,30086,신규,[입찰공고] 최적요금제 추천 시스템 기능개선 및 운영 위탁감리 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30086&parentSeq=30086
+2026-10-21,NIA,N,N,,입찰(용역)공고,2026.10.21,,,30085,신규,[입찰공고] 대규모 정보화사업 실태분석 및 개선방안 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30085&parentSeq=30085
 2026-10-19,NIA,Y,N,AI,기타,2026-10-19,2026-10-24,D-2,30080,신규,[사전규격공개] AI 맞춤형 교수학습 플랫폼 고도화 사업 위탁감리 [첨부파일],AI기술전략팀,전호현,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30080&parentSeq=30080
 2026-10-19,NIA,Y,N,데이터,입찰(용역)공고,2026.10.19,,,30079,신규,[조달입찰공고] 2027년 국가데이터통합플랫폼 운영 및 유지관리 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30079&parentSeq=30079
 2026-10-19,SMTECH,N,Y,평가,R&D지원사업,2026-10-19,,,1,접수예정,2026년 중소기업기술개발지원사업 모의평가 프로그램 접수 공고,중소기업R&D 모의평가 프로그램,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02882&buclCd=S9I01&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
@@ -21,9 +23,9 @@
 2026-10-13,KIAT,Y,N,데이터,입찰(용역)공고,2026-10-13,2026-10-27,D-5,4096,접수중,(입찰재공고) IRIS 데이터 연계 고도화  ​,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=f2bbeedbeb3b46698d5d370d7e63a4d9&MenuId=1e29209309434ec29095728c6f1356c7
 2026-10-13,KIAT,N,N,,입찰(용역)공고,2026-10-13,2026-10-27,D-5,4095,접수중,(입찰재공고) 기술사업화 촉진을 위한 R&D 연계 및 지원체계 고도화 방안 연구,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=66cd84e0d12c4f08aa0054eee0311c33&MenuId=1e29209309434ec29095728c6f1356c7
 2026-10-12,과학기술사업화진흥원,N,N,,R&D지원사업,2026-10-12,,,024419,접수중,2026년 연구산업육성사업(투자연계형 연구산업 혁신기술 개발) 본과제 신청 공고,과학기술정보통신부 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024419
-2026-10-12,NIA,Y,Y,"AI, 평가",입찰(용역)공고,2026.10.12,,,30062,신규,[입찰공고(재공고)] 범정부 AI 공통기반 구현(2차) 개인정보 영향평가 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30062&parentSeq=30062
-2026-10-12,NIA,N,N,,기타,2026-10-12,2026-10-16,마감,30061,신규,[사전규격공개] 최적요금제 추천 시스템 기능개선 및 운영 위탁감리 [첨부파일],통신서비스팀,송주실,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30061&parentSeq=30061
-2026-10-12,NIA,Y,Y,"AI, 데이터, 검증",입찰(용역)공고,2026.10.12,,,30060,신규,[입찰공고] AI학습용 데이터 통합제공을 위한 대상 및 후보 데이터 검증 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30060&parentSeq=30060
+2026-10-12,NIA,Y,Y,"AI, 평가",입찰(용역)공고,2026.10.12,,,30062,,[입찰공고(재공고)] 범정부 AI 공통기반 구현(2차) 개인정보 영향평가 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30062&parentSeq=30062
+2026-10-12,NIA,N,N,,기타,2026-10-12,2026-10-16,마감,30061,,[사전규격공개] 최적요금제 추천 시스템 기능개선 및 운영 위탁감리 [첨부파일],통신서비스팀,송주실,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30061&parentSeq=30061
+2026-10-12,NIA,Y,Y,"AI, 데이터, 검증",입찰(용역)공고,2026.10.12,,,30060,,[입찰공고] AI학습용 데이터 통합제공을 위한 대상 및 후보 데이터 검증 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30060&parentSeq=30060
 2026-10-12,한국에너지기술평가원,N,N,,R&D지원사업,2026-10-19,2026-11-10,D-19,024457,접수중,2026년도 에너지기술 수용성 제고 및 사업화 촉진 사업 신규지원 대상 연구개발과제 공고,기후에너지환경부 / 품목지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024457
 2026-10-12,한국연구재단,N,N,,기타,2026-10-12,2026-11-13,D-22,024437,접수중,2026년도 한-중(CSTEC) 신진과학자교류사업(파견) 신규과제 공모,과학기술정보통신부 / 자유공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024437
 2026-10-08,NIPA,N,N,,R&D지원사업,2026-10-08,,,349,오늘마감,하노이 IT지원센터‘26년 하반기 추가 입주기업 모집 공고,해외IT지원센터(하노이) 운영,이지수,https://www.nipa.kr/home/2-2/16967
@@ -37,8 +39,8 @@
 2026-10-06,한국산업기술기획평가원,N,N,,R&D지원사업,2026-10-06,,,024357,접수중,2026년도 지역맞춤형 재난안전 문제해결 기술개발 지원(2단계) 신규과제 재공모,행정안전부 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024357
 2026-10-06,KIAT,N,N,,입찰(용역)공고,2026-10-06,2026-10-20,마감,4090,접수마감,(입찰공고) 첨단기술 및 제품 정보관리체계 발전 전략 수립,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=f851b02f73cf4288811e4739db2aa6e9&MenuId=1e29209309434ec29095728c6f1356c7
 2026-10-06,KIAT,Y,N,인공지능,입찰(용역)공고,2026-10-06,2026-10-20,마감,4089,접수마감,(입찰공고) 사업관리체계 인공지능 전환(AX)을 위한 ISP 수립,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=10dc2108249e4eb5be59c65db986fb6e&MenuId=1e29209309434ec29095728c6f1356c7
-2026-10-06,한국연구재단,N,N,,기타,2026-10-06,,,024337,접수중,2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337
-2026-10-06,한국연구재단,N,N,,기타,2026-10-06,,,024317,접수중,2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024317
+2026-10-06,한국연구재단,N,N,,기타,2026-10-06,2026-11-05,D-14,024337,접수중,2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337
+2026-10-06,한국연구재단,N,N,,기타,2026-10-06,2026-11-05,D-14,024317,접수중,2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024317
 2026-10-02,NIA,N,N,,기타,2026-10-02,2026-10-07,마감,30053,,[사전규격공개] 2026년 충청남도교육청 학교 무선통신장비 도입 및 설치 위탁감리 [첨부파일],통신서비스팀,곽현호,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30053&parentSeq=30053
 2026-10-02,NIA,Y,Y,"AI, 데이터, 검증",기타,2026-10-02,2026-10-06,마감,30052,,[사전규격공개] AI학습용 데이터 통합제공을 위한 대상 및 후보 데이터 검증 [첨부파일],데이터활용기술팀,엄용석,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30052&parentSeq=30052
 2026-10-02,NIA,N,N,,기타,2026-10-02,2026-10-06,마감,30050,,[사전규격공개] 대규모 정보화사업 실태분석 및 개선방안 [첨부파일],책임형기술지원센터,김현주,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30050&parentSeq=30050
@@ -54,16 +56,16 @@
 2026-10-01,SMTECH,N,N,,R&D지원사업,2026-10-01,,,6,접수중,2026년도 제2차 한국무역보험공사 연계 수출지원프로그램 시행계획 안내,수출지원프로그램,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02881&buclCd=S9121&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-10-01,SMTECH,N,N,,R&D지원사업,2026-10-01,,,13,접수완료,2026년 중소기업 연구인력지원사업(파견) 9월 공고,공공연연구인력파견지원(참여기업접수용),SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=8&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-09-30,NIA,N,Y,보안,기타,2026-09-30,2026-10-04,마감,30031,신규,[사전규격공개] 대규모 정보시스템 N2SF 보안진단 [첨부파일],책임형기술지원센터,이지수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30031&parentSeq=30031
+2026-09-30,NIA,Y,N,AI,입찰(용역)공고,2026-10-09,2026-10-13,마감,30024,,[조달입찰공고] 범정부 AI 공통기반 구현(2차) 사업 위탁감리 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30024&parentSeq=30024
 2026-09-30,NIA,Y,Y,"AI, 데이터, 빅데이터, 평가",입찰(용역)공고,2026.09.30,,,30034,,[입찰공고(재공고)] AI 빅데이터 분석기반 보훈심사 지원시스템 구축 개인정보 영향평가 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30034&parentSeq=30034
 2026-09-30,NIA,Y,N,AI,입찰(용역)공고,2026.09.30,,,30033,,[조달입찰공고] (재공고) NPU 기반 범정부 AI 서비스 구현 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30033&parentSeq=30033
 2026-09-30,NIA,Y,N,"AI, 데이터",입찰(용역)공고,2026.09.30,,,30032,,[조달입찰공고] AI학습용데이터 통합제공시스템 구축 위탁감리 [첨부파일],재무관리팀,장경수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30032&parentSeq=30032
 2026-09-30,NIA,Y,Y,"데이터, 품질",기타,2026-09-30,2026-10-04,마감,30030,,[사전규격공개] 대규모 정보시스템 데이터베이스 품질 진단 [첨부파일],책임형기술지원센터,이지수,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30030&parentSeq=30030
-2026-09-30,NIA,Y,N,AI,입찰(용역)공고,2026-10-09,2026-10-13,마감,30024,,[조달입찰공고] 범정부 AI 공통기반 구현(2차) 사업 위탁감리 [첨부파일],재무관리팀,정하윤,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30024&parentSeq=30024
 2026-09-30,KIAT,Y,N,데이터,입찰(용역)공고,2026-09-30,2026-10-13,마감,4088,접수마감,(입찰공고) 제3회 한-독 산업데이터 협력 포럼 기획 및 운영 용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=fc87dc40221245258c6906ffb22c28f6&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-29,한국에너지공단,N,N,,R&D지원사업,2026-09-29,,,024277,접수중,2026년 3차 전력정보화 및 정책지원사업(재생에너지분야) 신규지원 대상과제 공고,기후에너지환경부 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024277
 2026-09-29,NIA,Y,N,AI,기타,2026.09.29,,,30019,,[사전규격공개]공공 웹·앱 UI/UX 추진 위탁감리 [첨부파일],AI정부혁신성과팀,최윤형,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30019&parentSeq=30019
-2026-09-29,NIPA,Y,N,AI,R&D지원사업,2026-09-29,,,347,종료,2026년도 한-베트남 AI 디지털 포럼 전시 및 비즈니스 매칭 부스 참가기업 모집,해외IT지원센터(하노이) 운영,김지환,https://www.nipa.kr/home/2-2/16953
 2026-09-29,NIA,N,N,,입찰(용역)공고,2026.09.29,,,30022,,[조달입찰공고] (재공고) 2026년 개도국 정보접근센터 정보화 기자재 도입 용역 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30022&parentSeq=30022
+2026-09-29,NIPA,Y,N,AI,R&D지원사업,2026-09-29,,,347,종료,2026년도 한-베트남 AI 디지털 포럼 전시 및 비즈니스 매칭 부스 참가기업 모집,해외IT지원센터(하노이) 운영,김지환,https://www.nipa.kr/home/2-2/16953
 2026-09-28,NIA,Y,Y,"AI, 평가",입찰(용역)공고,2026.09.28,,,30016,,[입찰공고] 지방세 AI 상담 서비스 개인정보 영향평가 [첨부파일],재무관리팀,권남희,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30016&parentSeq=30016
 2026-09-28,KIAT,N,N,,입찰(용역)공고,2026-09-28,2026-10-13,마감,4087,접수마감,(입찰공고) 2026년 지역산업위기대응사업 성과분석 연구용역,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=ad4e48454b344dc890689c435a696d16&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-28,KIAT,Y,N,데이터,입찰(용역)공고,2026-09-28,2026-10-13,마감,4086,접수마감,(입찰공고) IRIS 데이터 연계 고도화,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=7f81934f166d4ed1aa792fc44e384dcd&MenuId=1e29209309434ec29095728c6f1356c7
@@ -88,8 +90,8 @@
 2026-09-22,KIAT,N,N,,입찰(용역)공고,2026-09-22,2026-10-13,마감,4079,접수마감,(입찰공고) 26년도 산업융합 규제샌드박스 포털 편의 기능 고도화,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=4809e50dff774b87adbbcdf1eb8fea6a&MenuId=1e29209309434ec29095728c6f1356c7
 2026-09-22,SMTECH,N,Y,규격,R&D지원사업,2026-09-22,,,9,접수완료,2026년도 중소벤처기업부 혁신제품 3차 규격추가 모집 안내문,중소벤처기업부 혁신제품 지정사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02880&buclCd=S9111&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-09-21,NIA,N,N,,기타,2026.09.21,,,30005,,[검토결과 공개] 충청북도교육청 5단계 스쿨넷서비스 제공 사업 사전규격공개 의견 [첨부파일],통신서비스팀,이인아,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30005&parentSeq=30005
-2026-09-21,SMTECH,N,N,,R&D지원사업,2026-09-21,,,7,접수중,2026년도 제4차 중소벤처기업부 혁신제품 지정기간 연장(1차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02878&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
-2026-09-21,SMTECH,N,N,,R&D지원사업,2026-09-21,,,8,접수중,2026년도 제3차 중소벤처기업부 혁신제품 지정기간 연장(2차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02879&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
+2026-09-21,SMTECH,N,N,,R&D지원사업,2026-09-21,,,7,접수중,2026년도 제3차 중소벤처기업부 혁신제품 지정기간 연장(2차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02879&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
+2026-09-21,SMTECH,N,N,,R&D지원사업,2026-09-21,,,8,접수중,2026년도 제4차 중소벤처기업부 혁신제품 지정기간 연장(1차) 공고,중소벤처기업부 혁신제품 지정 연장사업,SMTECH,https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02878&buclCd=S9112&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=
 2026-09-17,우주항공청,N,N,,기타,2026-09-29,2026-09-30,마감,024297,접수중,2026년 우주기술혁신인재양성사업[산학협력 연구현장 연계 고급 인력양성] 본과제 접수(설정변경),우주항공청 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024297
 2026-09-17,우주항공청,N,N,,기타,2026-09-17,2026-09-30,마감,024217,접수중,2026년 우주기술혁신인재양성사업[산학협력 연구현장 연계 고급 인력양성] 본과제 접수,우주항공청 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024217
 2026-09-17,NIA,N,N,,입찰(용역)공고,2026.09.17,,,30001,,[조달입찰공고] 2026년 서울특별시교육청 학교 무선통신장비 도입 및 설치 [첨부파일],재무관리팀,배보배,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30001&parentSeq=30001
