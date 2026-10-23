@@ -1,5 +1,5 @@
 ﻿공고일자,기관명,AI관련여부,품질인증관련여부,관련키워드,공고유형,접수시작일,접수종료일,마감Dday,번호,남은기간,제목,비고,작성자,상세링크
-2026-10-23,NIPA,Y,N,AI,R&D지원사업,2026-10-23,,,351,D-5,「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원),AI컴퓨팅자원 활용기반 강화사업 (첨단 GPU 활용 지원),예경민,https://www.nipa.kr/home/2-2/16976
+2026-10-23,NIPA,Y,N,AI,R&D지원사업,2026-10-23,,,351,D-5,2026년「첨단 GPU 활용 지원 사업」 베타서비스 참여자 모집 공모 안내 (산학연 지원),AI컴퓨팅자원 활용기반 강화사업 (첨단 GPU 활용 지원),예경민,https://www.nipa.kr/home/2-2/16976
 2026-10-23,NIA,N,N,,R&D지원사업,2026-10-23,2026-10-29,D-6,30090,신규,[사전규격공개] 한국지능정보사회진흥원 퇴직연금 사업자 선정 [첨부파일],인사총무팀,이정현,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30090&parentSeq=30090
 2026-10-23,NIA,N,N,,입찰(용역)공고,2026.10.23,,,30088,신규,[입찰공고] 한국지능정보사회진흥원 대구본원 구내식당 위탁운영 [첨부파일],재무관리팀,이용진,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30088&parentSeq=30088
 2026-10-23,KEIT,N,N,,R&D지원사업,2026-10-29,2026-11-20,D-28,I24578,접수예정,2026년도 제3차 기계장비산업기술개발사업 신규지원 대상과제 공고,IRIS 공고,,https://srome.keit.re.kr/srome/biz/perform/opnnPrpsl/retrieveTaskAnncmView.do?prgmId=XPG201040000&ancmId=I24578&ancmYy=2026
@@ -45,7 +45,7 @@
 2026-10-06,한국산업기술기획평가원,N,N,,R&D지원사업,2026-10-06,,,024357,접수중,2026년도 지역맞춤형 재난안전 문제해결 기술개발 지원(2단계) 신규과제 재공모,행정안전부 / 지정공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024357
 2026-10-06,KIAT,N,N,,입찰(용역)공고,2026-10-06,2026-10-20,마감,4090,접수마감,(입찰공고) 첨단기술 및 제품 정보관리체계 발전 전략 수립,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=f851b02f73cf4288811e4739db2aa6e9&MenuId=1e29209309434ec29095728c6f1356c7
 2026-10-06,KIAT,Y,N,인공지능,입찰(용역)공고,2026-10-06,2026-10-20,마감,4089,접수마감,(입찰공고) 사업관리체계 인공지능 전환(AX)을 위한 ISP 수립,,,https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=77&contents_id=10dc2108249e4eb5be59c65db986fb6e&MenuId=1e29209309434ec29095728c6f1356c7
-2026-10-06,한국연구재단,N,N,,기타,2026-10-06,2026-11-05,D-13,024337,접수중,2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337
+2026-10-06,한국연구재단,N,N,,기타,2026-10-06,,,024337,접수중,2026년도 퀀텀(양자)플랫폼 KRISS 차세대양자연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024337
 2026-10-06,한국연구재단,N,N,,기타,2026-10-06,,,024317,접수중,2026년도 퀀텀(양자)플랫폼 KIST 양자활용연구거점사업단 양자공동연구실(JQL) 신규과제 공모,과학기술정보통신부 / 분야공모,,https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024317
 2026-10-02,NIA,N,N,,기타,2026-10-02,2026-10-07,마감,30053,,[사전규격공개] 2026년 충청남도교육청 학교 무선통신장비 도입 및 설치 위탁감리 [첨부파일],통신서비스팀,곽현호,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30053&parentSeq=30053
 2026-10-02,NIA,Y,Y,"AI, 데이터, 검증",기타,2026-10-02,2026-10-06,마감,30052,,[사전규격공개] AI학습용 데이터 통합제공을 위한 대상 및 후보 데이터 검증 [첨부파일],데이터활용기술팀,엄용석,https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=78336&bcIdx=30052&parentSeq=30052
